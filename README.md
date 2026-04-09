@@ -1,70 +1,72 @@
-RoadSafe Analytics – India Road Accidents Dashboard
-Overview
-
-RoadSafe Analytics is an interactive dashboard developed to analyze and visualize road accident data across India. The dashboard presents key insights into accident frequency, severity, casualties, and influencing factors such as weather conditions, road types, and time patterns.
-
-The objective of this project is to enable data-driven decision-making and support efforts to improve road safety.
-
-Objectives
-Analyze road accident trends across different states
-Identify high-risk regions and contributing factors
-Understand the distribution of accident severity
-Provide insights to support road safety improvements
-Key Metrics
-Total Accidents: 88
-Total Fatalities: 204
-Total Casualties: 443
-Total Vehicles Involved: 257
-Dashboard Features
-State-wise Accident Analysis
-
-Displays the top states with the highest number of accidents, helping identify regions with elevated risk levels.
-
-Accident Severity Distribution
-
-Classifies accidents into categories such as fatal, serious, and minor, providing a clear understanding of impact levels.
-
-Casualties by Road Type
-
-Analyzes how different road types contribute to casualties, including highways, urban roads, and rural roads.
-
-Time-based Analysis
-
-Highlights accident trends based on time, enabling identification of peak hours when accidents are more frequent.
-
-Interactive Filters
-
-Allows users to dynamically filter data based on:
-
-Month
-Weather conditions (Clear, Foggy, Hazy, Rainy, Stormy)
-Day of the week
-Tools and Technologies Used
-Data Visualization Tool (Power BI or equivalent)
-Data Cleaning and Transformation
-Dashboard Design and Analytical Techniques
-Dataset Description
-
-The dataset used in this project includes:
-
-Accident records
-Severity classifications
-Casualty counts
-Vehicle involvement data
-Road type categories
-Weather conditions
-Date and time information
-Insights and Observations
-Certain regions consistently report higher accident frequencies
-Fatal and serious accidents form a significant proportion of total incidents
-Road type significantly influences casualty distribution
-Specific time periods show higher accident occurrence
-Weather conditions such as fog and rain correlate with increased accident risk
-Future Enhancements
-Integration of real-time data sources
-Implementation of predictive analytics models
-Inclusion of geospatial mapping for accident hotspots
-Advanced drill-down capabilities for deeper analysis
-Conclusion
-
-This dashboard provides a comprehensive analytical view of road accidents in India. It enables stakeholders to understand patterns, identify risks, and make informed decisions aimed at improving road safety.
+# RoadSafe Analytics – India Road Accidents Dashboard
+## Overview
+RoadSafe Analytics is an interactive dashboard developed to analyze and visualize road accident data across India. The project consists of two dashboards that provide insights into accident frequency, severity, casualties, weather conditions, and road types. The objective of this project is to support data-driven decision-making and improve road safety awareness.
+## Objectives
+* Analyze road accident trends across different states in India
+* Identify high-risk regions and major contributing factors
+* Understand the distribution of accident severity
+* Study the effect of weather conditions and road type on accidents
+* Provide meaningful insights to improve road safety
+## Key Metrics
+* Total Accidents: 181
+* Total Fatalities: 441
+* Total Casualties: 918
+* Total Vehicles Involved: 581
+# Dashboard 1 – Indian Road Safety Dashboard
+The first dashboard provides a complete overview of road accidents across India.
+### Features
+* KPI cards for total accidents, fatalities, casualties, and vehicles
+* Interactive heat map showing accident hotspots across India
+* Top 8 states with the highest number of accidents
+* Monthly accident trend analysis
+* Casualties categorized by road type
+* Accident severity distribution
+* Filters for year and weather condition
+* Key insights section
+### Key Insights
+* Goa recorded the highest number of accidents.
+* Accident frequency decreases gradually over the months.
+* Urban roads contribute the highest number of casualties.
+* Serious accidents form the largest category of accident severity.
+# Dashboard 2 – High Risk Road Accident Analysis
+The second dashboard focuses on identifying the most dangerous accident conditions and high-risk regions.
+### Features
+* Dynamic title based on selected weather condition
+* Risk score indicator
+* Most dangerous state and weather condition
+* Heat map of accident hotspots
+* Accident impact funnel showing accidents, casualties, and fatalities
+* Accidents by weather condition and severity
+* Top 5 dangerous states table
+* Interactive filters for road type, weather condition, and severity
+* Key insights panel
+### Key Insights
+* Goa has the highest accident risk among all states.
+* Foggy weather leads to the highest number of severe accidents.
+* Serious accidents are most common on urban roads.
+* Fatalities increase when visibility is poor.
+## Dataset Description
+The dataset used in this project contains:
+* State Name
+* Year and Month
+* Weather Condition
+* Road Type
+* Number of Accidents
+* Number of Casualties
+* Number of Fatalities
+* Vehicle Involvement
+* Accident Severity
+## Tools and Technologies Used
+* Microsoft Power BI
+* DAX Measures
+* Microsoft Bing Maps
+* CSV Dataset
+* Data Cleaning and Transformation Technique
+## Future Enhancements
+* Integration of real-time accident data
+* Use of predictive analytics to estimate accident risk
+* More advanced map-based visualizations
+* Drill-through pages for detailed state-level analysis
+* Additional filters for vehicle type and time of day
+## Conclusion
+RoadSafe Analytics provides a comprehensive analysis of road accidents in India. By visualizing accident hotspots, severity levels, and contributing factors, the dashboard helps identify patterns and supports informed decision-making. The project can be useful for researchers, traffic authorities, and policymakers working towards improving road safety in India.
